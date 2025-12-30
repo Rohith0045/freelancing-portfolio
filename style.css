@@ -289,10 +289,11 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('https://placehold.co/400x400/EC1D24/FFFFFF?text=YOUR+PHOTO');
-  /* Default placeholder */
-  opacity: 0.1;
-  z-index: 0;
+  background: url('./profile.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: 1;
 }
 
 .sound-effect {
@@ -300,7 +301,8 @@ h3 {
   font-size: 5rem;
   color: black;
   transform: rotate(-5deg);
-  z-index: 2;
+  position: relative;
+  z-index: 10;
   text-shadow: 3px 3px 0 var(--marvel-gold);
 }
 
